@@ -1,0 +1,36 @@
+.calc__result {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 13px;
+    border: 1px solid rgb(224, 221, 221);
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    width: 650px;
+   border:none;
+   color:black;
+    height: 75px;
+    letter-spacing: 1px;
+    text-align: end;
+    padding: 14px;
+}
+
+
+.calc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.calc__body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calc .calcBtn {
+    flex: 1 0 21%;
+    margin: 5px;
+}
